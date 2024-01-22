@@ -1,51 +1,69 @@
 {
-  "parts": [
-    {
-      "id": 0,
-      "name": "Your journey begins",
-      "image": "step-0.jpg",
-      "text": "As you step through the mystical portal, the air crackles with magic, and you find yourself standing in a breathtaking landscape of Eldoria. The sky is painted with hues unknown to your world, and fantastical creatures roam in the distance. Before you stretches a path leading to the heart of the realm. As you begin your journey, an ancient figure appears before you. 'Greetings, traveler! In Eldoria, you'll face challenges beyond your wildest imagination. But fear not, for you may choose a weapon to aid you on your quest.'",
-      "options": [
-        {
-          "text": "Select the Enchanted Sword",
-          "path": "select_sword",
-          "target": 1
-        },
-        {
-          "text": "Choose the Elemental Staff",
-          "path": "select_staff",
-          "target": 2
-        },
-        {
-          "text": "Opt for the Arcane Bow",
-          "path": "select_bow",
-          "target": 3
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "name": "Part 2",
-      "text": "This is part 2",
-      "options": [
-        {
-          "id": 2,
-          "text": "Go back to start",
-          "target": 0
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Part 3",
-      "text": "This is part 3",
-      "options": [
-        {
-          "id": 4,
-          "text": "Go back to part 2",
-          "target": 1
-        }
-      ]
-    }
-  ]
+"parts": [
+{
+"id": 0,
+"name": "Welcome to Keros Kizzeria",
+"image": "baking.jpg",
+"text": "Upon entering Keros Kizzeria, the delightful scent of freshly baked pizzas envelops you. The atmosphere is lively, with colorful pizza-themed decor and the buzz of happy conversations. A friendly waiter approaches you, saying, 'Greetings, food adventurer! In Keros Kizzeria, you'll embark on a culinary journey like no other. But worry not, for you get to choose a specialty pizza to kick off your experience.'",
+"options": [
+{
+"text": "Order the Supreme Delight",
+"path": "order_supreme",
+"target": 1
+},
+{ 
+"image": "baking.jpg",
+"text": "Choose the Veggie Extravaganza",
+"path": "order_veggie",
+"target": 2
+},
+{
+"text": "Opt for the Meat Lover's Feast",
+"path": "order_meat",
+"target": 3
+}
+]
+},
+{
+"id": 1,
+"name": "Savoring the Supreme Delight",
+"text": "Opting for the Supreme Delight pizza, adorned with a rich blend of meats, veggies, and gooey cheese, your first bite is a symphony of flavors that dance on your taste buds. Each ingredient complements the others perfectly. As you savor your pizza, the ambiance of Keros Kizzeria enhances the experience. Your taste buds embark on a delightful journey, and you can't help but appreciate the culinary magic around you.",
+"options": [
+{
+"text": "Finish your meal",
+"path": "finish_meal",
+"target": 4
+}
+]
+},
+{
+"id": 2,
+"name": "Choosing the Veggie Extravaganza",
+"text": "Opting for the Veggie Extravaganza pizza, loaded with a variety of fresh vegetables and savory cheese, your first bite is a burst of garden-fresh goodness. The flavors meld together harmoniously, creating a satisfying and wholesome experience. As you enjoy your pizza, the vibrant atmosphere of Keros Kizzeria adds to the pleasure of your culinary adventure.",
+"options": [
+{
+"text": "Finish your meal",
+"path": "finish_meal",
+"target": 4
+}
+]
+},
+{
+"id": 3,
+"name": "Opting for the Meat Lover's Feast",
+"text": "Choosing the Meat Lover's Feast pizza, stacked with a hearty assortment of meats and melted cheese, your first bite is a carnivorous delight. The robust flavors mingle, creating a savory and satisfying experience. As you indulge in your pizza, the energetic ambiance of Keros Kizzeria heightens the enjoyment of your culinary journey.",
+"options": [
+{
+"text": "Finish your meal",
+"path": "finish_meal",
+"target": 4
+}
+]
+},
+{
+"id": 4,
+"name": "Concluding Your Culinary Adventure",
+"text": "With the last delightful bite, you conclude your culinary adventure at Keros Kizzeria. The enchanting flavors linger on your palate, and the vibrant atmosphere leaves a lasting impression. As you step away from your table, you can't help but feel grateful for the magical experience of exploring the delectable world of Keros Kizzeria."
+}
+]
 }
