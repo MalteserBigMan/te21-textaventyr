@@ -23,7 +23,7 @@ const pool = require('../db')
 router.get('/dbtest', async (req, res) =>{
   try {
     const [parts] = await pool.promise().query('SELECT * FROM malte_part WHERE id = ${id}')
-    const [options] = await pool.promise().query('SELECT * FROM malte_options WHERE id = ${id}')
+    const [options] = await pool.promise().query('SELECT * FROM malte_options WHERE part_id = ${id}')
     res.json({ parts, options })
   } catch (error){
     console.log(error)
